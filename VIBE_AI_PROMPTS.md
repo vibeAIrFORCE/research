@@ -1,286 +1,290 @@
 # VIBE AI PROMPTS COLLECTION
 
-A comprehensive collection of proven prompts for maximizing your VIBE.aiRforce agent's capabilities across crypto analysis, web research, development, and everyday tasks.
-
+A simple collection of practical prompts for your VIBE.aiRforce agent. These prompts are designed to work with our actual capabilities and data providers.
 ---
 
-## 🚀 CRYPTO ANALYSIS PROMPTS
+## 🌐 CRYPTO ANALYSIS PROMPTS
 
-### Complete Token Analysis (Master Prompt)
+### Simple Token Analysis
 ```
-Use a data provider and tell me if buying this coin is a wise decision right now. I'm risk-hungry. CA: [Contract Address]
-2. Use a Twitter data provider to list top KOLs and their statements.
-3. Documentation review for utility status and tokenomics
-4. Based on market data, KOL sentiment, and project fundamentals, provide an investment recommendation with:
-- Entry rating (1-100)
-- Risk rating
-- Position size
-- Entry/exit points
-- Comparison to 2-3 similar projects
-- Competitive advantages
-- 5-10x potential analysis for risk-hungry investors
+Analyze this token for investment potential: [CONTRACT_ADDRESS]
 ```
 
-### Quick Risk Assessment
+### Quick Risk Check
 ```
-Use a data provider and tell me if buying this coin is a wise decision right now. I'm risk-hungry. CA: [CONTRACT_ADDRESS]
-```
-
-### KOL Sentiment Analysis
-```
-Use a Twitter data provider to list top KOLs and their statements about [PROJECT_NAME/TOKEN_SYMBOL].
+Is this token safe to buy? CA: [CONTRACT_ADDRESS]
 ```
 
-### Twitter Data Mining
+### Social Sentiment Analysis
 ```
-Use the Twitter data provider to find recent tweets mentioning @VIBEaiRforce from key opinion leaders with analysis of sentiment and engagement metrics.
-```
-
-
-### Solana Micro-Cap Gem Research
-```
-Using your Solana micro-cap research protocol, find three potential GameFi gems launched in the last 6 months with active Twitter communities and report them using the Gem Profile Template.
+What are people saying about [TOKEN_NAME] on social media?
 ```
 
----
-
-## 🔍 WEB RESEARCH & DATA ANALYSIS
-
-### Market Research & Competitive Analysis
+### Solana Token Research
 ```
-Research the top 5 online stores selling sustainable pet toys in North America. For each, identify their main product categories, typical price range for a best-selling toy, and 2-3 unique selling propositions they highlight. Summarize this in `market_research_pets.md`.
+Research this Solana token: [CONTRACT_ADDRESS]
+
 ```
 
-### Content Summarization
+## 🔍 PROJECT LEGITIMACY PROMPTS
+
+### LARP vs Legit Check
 ```
-Read the articles at [URL1], [URL2], and [URL3] about the future of remote work. Extract the key trends and challenges discussed, and provide a bullet-point summary in `remote_work_summary.txt`.
+Is [PROJECT_NAME] legit or a LARP?
 ```
 
-
-### Project Intelligence Gathering
+### Team Verification
 ```
-Research [PROJECT_NAME] and analyze:
-- Current market metrics (market cap, liquidity, holders)
-- KOL sentiment with credibility scores
-- Utility status & tokenomics
-- Entry/exit recommendations
-- Risk assessment for my profile
+Research the team behind [PROJECT_NAME]:
+```
+
+### Product Reality Check
+```
+Does [PROJECT_NAME] actually have a working product?
 ```
 
 ---
 
-## 💻 DEVELOPMENT & TECHNICAL PROMPTS
+## 📊 MARKET RESEARCH PROMPTS
+
+### Trending Analysis
+```
+What tokens are trending right now on [NETWORK]?
+```
+
+### Competitive Analysis
+```
+Compare [TOKEN_A] vs [TOKEN_B]:
+```
+
+### Narrative Research
+```
+What narratives are trending in crypto right now?
+```
+
+---
+
+## 💻 DEVELOPMENT PROMPTS
 
 ### Simple API Creation
 ```
-Create a simple Flask API with one endpoint `/hello` that returns 'Hello, VIBEr!'. Run it and expose the port so I can test it.
+Create a basic API that:
+- Has endpoints for [SPECIFIC_FUNCTIONALITY]
+- Returns JSON responses
+- Includes error handling
+- Can be tested locally
 ```
 
-### Web Scraping & Data Processing
+### Data Analysis Script
 ```
-Create a Python script that fetches the current price of Ethereum from CoinGecko API and saves it to `eth_price.txt`. Then, write a short paragraph explaining how to run this script.
+Create a Python script to:
+- Fetch data from [DATA_SOURCE]
+- Process and analyze the information
+- Generate a summary report
+- Save results to a file
 ```
 
-### Code Explanation
+### Web Dashboard
 ```
-Explain the core concepts of Python decorators for a beginner. Provide a simple code example of a decorator that logs function calls and save the explanation and code in `python_decorators_intro.py`.
-```
-
-### Full-Stack Web Development
-```
-Generate a landing page `index.html` with a connected `style.css` for a new VIBE AI project called 'MemeCoin Analyzer'. The page should have a catchy headline, a brief description, and a placeholder for a demo video. Use our brand colors: Beige Background (`#a99d7e`) for the page, Text Black (`#22201c`) for text, and Hoodie Blue (`#4a7c97`) for accents.
+Build a simple web dashboard showing:
+- [SPECIFIC_METRICS] 
+- Clean, responsive design
+- Real-time data updates if possible
+- Easy to understand visualizations
 ```
 
 ---
 
 ## 📝 CONTENT CREATION PROMPTS
 
-### Blog Post Outline Generation
+### Research Report
 ```
-Generate a blog post outline for an article titled '10 Tips for Effective Time Management for Busy Professionals'. Include a catchy introduction, main points for each tip with a brief explanation, and a concluding thought. Save this as `blog_outline_timemanagement.md`.
-```
-
-### Social Media Content Brainstorming
-```
-Brainstorm 5 Instagram post ideas for a VIBE.aiRforce social media campaign. Each idea should include a visual suggestion (e.g., image of our Giraffe mascot, screenshot of the UI) and a caption concept highlighting a key VIBE AI feature. Format this in `insta_ideas_vibeai.md`.
-```
-
-### Professional Email Drafting
-```
-Draft a follow-up email to a potential client, Ms. Jane Doe (jane.doe@example.com), after a productive meeting yesterday. Reference our discussion about VIBE AI's data analysis capabilities and propose a short demo next week. Keep the tone professional but friendly. Save as `follow_up_email_janedoe.txt`.
+Write a research report on [TOPIC]:
+- Gather information from multiple sources
+- Include current market data
+- Provide clear analysis and conclusions
+- Format as a professional document
 ```
 
----
-
-## 🌍 TRAVEL & LIFESTYLE PROMPTS
-
-### Travel Planning
+### Social Media Content
 ```
-Plan a 3-day weekend itinerary for a trip to Paris, France, for someone interested in art museums and local cafes. Include suggestions for 2 museums, 3 cafes, and one evening activity. Also, find a well-rated (4 stars or above) hotel near the Louvre. Present this in a readable format in `paris_trip_plan.md`.
+Create content for [PLATFORM] about [TOPIC]:
+- Engaging and shareable format
+- Include relevant hashtags/mentions
+- Match platform-specific style
+- Include visual suggestions
 ```
 
-### Local Recommendations
+### Technical Documentation
 ```
-I'm in Barcelona, find me the best-rated ice cream shops downtown with reviews, addresses, and operating hours.
+Create documentation for [PROJECT/CODE]:
+- Clear setup instructions
+- Usage examples
+- Troubleshooting guide
+- Beginner-friendly explanations
 ```
 
 ---
 
-## 🎯 ADVANCED SYSTEM PROMPTS
+## 🌍 RESEARCH & ANALYSIS PROMPTS
 
-### Deep Research with Multi-Source Analysis
+### Market Research
 ```
-Research the top 3 competitors for a new Solana-based DeFi protocol focused on yield farming, analyze their tokenomics, current market cap, and recent community activity on Twitter. Provide a summary in a markdown file named `competitor_analysis.md`.
+Research the market for [PRODUCT/SERVICE]:
+- Identify main competitors
+- Analyze pricing strategies
+- Find market size and trends
+- Provide opportunities assessment
 ```
 
-
-### Twitter Analytics Deep Dive
+### News Analysis
 ```
-Use the Twitter data provider to analyze recent sentiment around [TOPIC/PROJECT] including:
-- Key opinion leader mentions
-- Sentiment scoring
-- Engagement metrics
-- Credibility assessment of sources
-- Trending patterns over the last 7 days
+Find and analyze recent news about [TOPIC]:
+- Gather from multiple sources
+- Summarize key developments
+- Assess impact and implications
+- Provide timeline of events
+```
+
+### Technology Research
+```
+Research [TECHNOLOGY/PROTOCOL]:
+- How it works and key features
+- Advantages and limitations
+- Current adoption and use cases
+- Future potential and risks
 ```
 
 ---
 
-## 🛠️ UTILITY & PRODUCTIVITY PROMPTS
+## 🛠️ UTILITY PROMPTS
 
-### File Organization & Processing
+### File Organization
 ```
-Organize all files in the current directory by type, create appropriate subdirectories, and provide a summary of what was organized in `file_organization_summary.md`.
+Organize files in this directory:
+- Sort by type and purpose
+- Create logical folder structure
+- Remove duplicates if found
+- Provide summary of changes
 ```
 
-### Data Conversion & Processing
+### Data Processing
 ```
-Convert the CSV file `data.csv` to JSON format, clean any duplicate entries, and save the result as `clean_data.json` with a summary of changes made.
+Process this data file [FILE]:
+- Clean and format the data
+- Extract key insights
+- Create visualizations if helpful
+- Export in [DESIRED_FORMAT]
 ```
 
 ### System Analysis
 ```
-Analyze the current system performance, check disk usage, memory consumption, and running processes. Provide recommendations for optimization in `system_analysis.md`.
+Check system performance and provide:
+- Resource usage summary
+- Potential optimization suggestions
+- Security considerations
+- Maintenance recommendations
 ```
 
 ---
 
-## 📱 SOCIAL MEDIA & COMMUNITY PROMPTS
+## 🎯 SPECIALIZED PROMPTS
 
-### Community Sentiment Analysis
+### Security Analysis
 ```
-Analyze the sentiment around $VIBE token across Twitter, Discord, and Telegram. Look for:
-- Community growth patterns
-- Key influencer mentions  
-- Sentiment trends (positive/negative/neutral)
-- Trading discussion volume
-- Partnership announcements
+Analyze the security of [CONTRACT/PROJECT]:
 ```
 
-### Competitor Social Media Analysis
+### Community Analysis
 ```
-Compare the social media presence of [PROJECT_A] vs [PROJECT_B] across Twitter use data provider, analyzing:
-- Follower growth rates
-- Engagement metrics
-- Content quality
-- Community activity levels
-- Recent announcements impact
-```
-
----
-
-## 🎨 DESIGN & CREATIVE PROMPTS
-
-### Brand Asset Creation
-```
-Create a complete brand package for [PROJECT_NAME] including:
-- Logo concepts (describe 3 variations)
-- Color palette with hex codes
-- Typography recommendations
-- Brand guidelines document
-- Social media templates
+Analyze the community around [PROJECT]:
+- Size and growth metrics
+- Engagement quality
+- Sentiment analysis
+- Community health assessment
 ```
 
-### UI/UX Design
+### Technical Implementation Review
 ```
-Design a modern dashboard interface for crypto portfolio tracking with:
-- Clean, minimal layout
-- Dark/light mode options
-- Key metrics prominently displayed
-- Mobile-responsive design considerations
-- Color scheme using VIBE AI brand colors
+Review the technical implementation of [PROJECT]:
+- Code quality and architecture
+- Performance considerations
+- Scalability assessment
+- Development best practices
 ```
 
 ---
 
-## 💡 PROMPT OPTIMIZATION TIPS
+## 💡 PROMPT TIPS
 
-### Making Your Prompts More Effective
+### Making Effective Prompts
 
-1. **Be Specific**: Include exact file names, formats, and requirements
-2. **Set Context**: Mention your risk tolerance, experience level, or specific needs
-3. **Request Deliverables**: Always specify output format (`.md`, `.txt`, `.py`, etc.)
-4. **Use Data Providers**: Leverage Twitter, LinkedIn, and other specialized data sources
-5. **Include Brand Elements**: Reference VIBE AI colors and style when relevant
+1. **Be Specific**: Include exact contract addresses, project names, or URLs
+2. **Set Context**: Mention your risk tolerance or investment goals
+3. **Request Format**: Specify if you want markdown files, reports, or code
+4. **Use Our Tools**: Leverage our data providers for blockchain, social, and market data
+5. **Be Realistic**: Our prompts work with actual available capabilities
 
 ### Template Structure
 ```
-[ACTION] [SPECIFIC_TASK] using:
-1) [DATA_SOURCE_1] for [SPECIFIC_METRICS]
-2) [DATA_SOURCE_2] for [SPECIFIC_ANALYSIS]
-3) [OUTPUT_REQUIREMENTS] with [FORMAT_SPECIFICATIONS]
-4) [ADDITIONAL_CONTEXT] for [TARGET_AUDIENCE]
-```
-
-### Example Implementation
-```
-Analyze Solana token [CONTRACT] using:
-1) Birdeye data for market metrics and security
-2) Twitter data provider for KOL sentiment  
-3) Documentation review for utility analysis
-4) Investment recommendation for risk-hungry DeFi investor
-Save as `token_analysis_[SYMBOL].md`
+[ACTION] [SPECIFIC_TARGET] using:
+- [AVAILABLE_DATA_SOURCE]
+- [ANALYSIS_TYPE]
+- [OUTPUT_FORMAT]
+For [YOUR_USE_CASE]
 ```
 
 ---
 
-## 📚 PROMPT CATEGORIES QUICK REFERENCE
+## 📚 AVAILABLE DATA SOURCES
 
-| Category | Use Case | Key Features |
-|----------|----------|--------------|
-| **Crypto Analysis** | Token research, investment decisions | Multi-source data, risk assessment |
-| **Web Research** | Market analysis, competitive intelligence | Real-time data, comprehensive reports |
-| **Development** | Code creation, API building | Full-stack capabilities, deployment ready |
-| **Content Creation** | Writing, social media, documentation | Brand-aligned, professional quality |
-| **Travel & Lifestyle** | Planning, recommendations | Location-based, personalized |
-| **Productivity** | Organization, automation | Efficient workflows, time-saving |
+Our agent has access to these data providers:
 
----
-
-## 🚀 ADVANCED PROMPTING TECHNIQUES
-
-### Chain Prompting
-Break complex tasks into sequential steps:
-```
-1. First, research [TOPIC] using web search
-2. Then, analyze the data for key trends  
-3. Finally, create a summary report with recommendations
-```
-
-### Conditional Prompting
-Use if/then logic for dynamic responses:
-```
-If the token has less than $5M market cap, focus on micro-cap analysis.
-If the token has governance features, include DAO analysis.
-If Twitter sentiment is negative, investigate recent events.
-```
-
-### Multi-Modal Prompting
-Combine different data sources and outputs:
-```
-Use Twitter data provider AND web search AND documentation review to create both a written analysis AND a visual chart of key metrics.
-```
+| Provider | Use Case | Best For |
+|----------|----------|----------|
+| **EVA AI** | Security analysis | Contract audits, token safety |
+| **DATA API** | Social intelligence | KOL analysis, trends, sentiment |
+| **Nansen** | Smart Money tracking | Whale activity, institutional flows |
+| **Blokiments** | Technical analysis | Price momentum, trading metrics |
+| **PumpFun** | Solana meme coins | New Solana token launches |
+| **Twitter** | Social sentiment | Real-time social data |
+| **Yahoo Finance** | Traditional markets | Stock and market data |
 
 ---
 
-*Remember: Your VIBE.aiRforce agent works best with clear, specific instructions. The more context you provide, the better the results will be. Happy VIBING! 🚀* 
+## 🚀 QUICK START EXAMPLES
+
+### Crypto Investment Research
+```
+I want to invest in a new token but need to research it first.
+Token: [CONTRACT_ADDRESS]
+Network: [ETHEREUM/SOLANA/etc]
+Risk level: [HIGH/MEDIUM/LOW]
+Investment amount: [RANGE]
+
+Give me a complete analysis with clear buy/sell/hold recommendation.
+```
+
+### Project Due Diligence
+```
+Help me research [PROJECT_NAME] to see if it's legitimate.
+Website: [URL]
+Claims: [WHAT_THEY_CLAIM_TO_DO]
+My concerns: [SPECIFIC_CONCERNS]
+
+Provide a LARP vs Legit rating with explanation.
+```
+
+### Market Opportunity Research
+```
+Find trending opportunities in [SECTOR/NARRATIVE].
+Timeframe: [24H/7D/30D]
+Risk tolerance: [HIGH/MEDIUM/LOW]
+Investment thesis: [SPECIFIC_THEME]
+
+Identify 3-5 potential plays with analysis.
+```
+
+---
+
+*Remember: These prompts work with our actual capabilities. Keep it simple, be specific, and let the VIBE.aiRforce do the heavy lifting! 🚀* 
